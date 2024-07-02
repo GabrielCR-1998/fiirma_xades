@@ -1,5 +1,5 @@
 import { Router } from "express";
-import {SignatureXML} from "../controllers/signature.controller.js"
+import {SignatureXml} from "../controllers/signature.controller.js"
 
 
 /**
@@ -9,4 +9,4 @@ import {SignatureXML} from "../controllers/signature.controller.js"
 
 export const router = Router();
 
-router.post("/", SignatureXML);
+router.post("/", SignatureXml);
